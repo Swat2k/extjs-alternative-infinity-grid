@@ -35,9 +35,13 @@ Production build:
 
     $ sencha app build --production
 
-### Run the app
+### Run the Server
 
     $ cd server
     $ python example_server.py
-
-Open your browser on http://localhost:5000/articles
+	
+### Run the Application
+	$ cd client
+	$ sencha app watch
+	
+Open your browser on http://localhost:1841
