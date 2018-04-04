@@ -62,5 +62,14 @@ Ext.define('App.components.data.InfinityStore', {
             me.callParent(arguments);
     },
 
+    reload: function() {
+        var me = this;
+
+        me.currentPage = 0;
+        me.totalCount = 0;
+
+        me.nextPage();
+    }
+
  
 });
